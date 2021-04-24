@@ -275,7 +275,7 @@ export default class WearAHat {
         // Create the hat model and attach it to the avatar's head.
         // Jimmy
 
-        const position = hatRecord.position ? hatRecord.position : { x: 0, y: -.2, z: 0 }
+        const position = hatRecord.position ? hatRecord.position : { x: 0, y: -.1, z: 0 }
         const scale = hatRecord.scale ? hatRecord.scale : { x: 0.06, y: 0.06, z: 0.06 }
         const rotation = hatRecord.rotation ? hatRecord.rotation : { x: 0, y: 55, z: 0 }
         const attachPoint = <MRE.AttachPoint> (hatRecord.attachPoint ? hatRecord.attachPoint : 'head')
