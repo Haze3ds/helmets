@@ -277,7 +277,7 @@ export default class WearAHat {
 
         const position = hatRecord.position ? hatRecord.position : { x: 0, y: -.15, z: 0 }
         const scale = hatRecord.scale ? hatRecord.scale : { x: 0.06, y: 0.06, z: 0.06 }
-        const rotation = hatRecord.rotation ? hatRecord.rotation : { x: 0, y: 65, z: 0 }
+        const rotation = hatRecord.rotation ? hatRecord.rotation : { x: 0, y: 75, z: 0 }
         const attachPoint = <MRE.AttachPoint> (hatRecord.attachPoint ? hatRecord.attachPoint : 'head')
 
         this.attachedHats.set(userId, MRE.Actor.CreateFromLibrary(this.context, {
