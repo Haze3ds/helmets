@@ -276,7 +276,7 @@ export default class WearAHat {
         // Jimmy
 
         const position = hatRecord.position ? hatRecord.position : { x: 0, y: -.2, z: 0 }
-        const scale = hatRecord.scale ? hatRecord.scale : { x: 0.1, y: 0.09, z: 0.09 }
+        const scale = hatRecord.scale ? hatRecord.scale : { x: 0.07, y: 0.07, z: 0.07 }
         const rotation = hatRecord.rotation ? hatRecord.rotation : { x: 0, y: 45, z: 0 }
         const attachPoint = <MRE.AttachPoint> (hatRecord.attachPoint ? hatRecord.attachPoint : 'head')
 
